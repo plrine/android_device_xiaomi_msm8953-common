@@ -6,6 +6,18 @@
 
 COMMON_PATH := device/xiaomi/msm8953-common
 
+# A/B
+ifeq ($(TARGET_IS_AB),true)
+AB_OTA_UPDATER := true
+BOARD_USES_RECOVERY_AS_BOOT := true
+TARGET_NO_RECOVERY := true
+
+# A/B
+AB_OTA_PARTITIONS += \
+    boot \
+    system
+endif
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
