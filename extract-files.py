@@ -20,8 +20,11 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/xiaomi/msm8953-common',
-    'hardware/qcom-caf/msm8996',
+    'hardware/qcom-caf/msm8953',
+    'vendor/qcom/opensource/commonsys/display',
+    'vendor/qcom/opensource/commonsys-intf/display',
     'vendor/qcom/opensource/dataservices',
+    'vendor/qcom/opensource/display',
 ]
 
 
