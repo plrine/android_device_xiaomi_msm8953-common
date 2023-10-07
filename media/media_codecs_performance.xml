@@ -138,5 +138,7 @@
             </Type>
         </MediaCodec>
     </Decoders>
+    <!-- Dolby Audio -->
+    <Include href="media_codecs_dolby_audio.xml" />
 </MediaCodecs>
 
