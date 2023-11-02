@@ -149,6 +149,17 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     android.hardware.drm@1.4.vendor
 
+<<<<<<< HEAD
+=======
+# Encryption
+ifneq ($(AB_OTA_UPDATER), true)
+ifeq ($(TARGET_IS_LEGACY),true)
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.crypto.volume.contents_mode=aes-256-xts
+endif
+endif
+
+>>>>>>> f1287dd (msm8953-common: rootdir: Tissot doesn't have a vendor partition)
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
