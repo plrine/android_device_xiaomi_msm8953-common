@@ -296,6 +296,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+
 # Network
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
