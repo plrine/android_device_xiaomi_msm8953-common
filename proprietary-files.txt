@@ -632,13 +632,11 @@ vendor/etc/init/init.time_daemon.rc
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
 
-# Widevine
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.2-service.widevine.xml
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib64/libwvhidl.so
+# Widevine - from FP3-REL-6.A.028.1-gms-fb581341-user
+vendor/bin/hw/android.hardware.drm-service.widevine|cdbd2b11c53df4c9151317d9990914d6fe6e526c
+vendor/etc/init/android.hardware.drm-service.widevine.rc|54c79ef531c9c135fa234a8515b3d37f0e1ccc4d
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml|7e13b6628572b1cdd76351b744e2805d4e6f2dd9
+vendor/lib/libwvaidl.so|eb2d7348cfd83a663e0536436b86a9574ec4d925
 
 # Wi-Fi
 vendor/bin/wcnss_service
