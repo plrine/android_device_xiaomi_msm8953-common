@@ -147,7 +147,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service
+    android.hardware.camera.provider@2.4-service \
+    android.hardware.camera.provider@2.5
 
 PRODUCT_PACKAGES += \
     libstdc++_vendor
@@ -242,6 +243,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libgui_shim \
     vendor.qti.hardware.camera.device@1.0
+
+PRODUCT_PACKAGES += \
+    libion.vendor
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -350,12 +354,20 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+PRODUCT_PACKAGES += \
+    libnetutils.vendor \
+    libsqlite.vendor \
+    libssl.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
+
+PRODUCT_PACKAGES += \
+    libpower.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
