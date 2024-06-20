@@ -87,10 +87,6 @@ endif
 PRODUCT_PACKAGES += \
     AntHalService
 
-# Device-specific Settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
