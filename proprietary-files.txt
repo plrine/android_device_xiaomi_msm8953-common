@@ -638,6 +638,3 @@ vendor/bin/hw/android.hardware.drm-service.widevine|cdbd2b11c53df4c9151317d99909
 vendor/etc/init/android.hardware.drm-service.widevine.rc|54c79ef531c9c135fa234a8515b3d37f0e1ccc4d
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml|7e13b6628572b1cdd76351b744e2805d4e6f2dd9
 vendor/lib/libwvaidl.so|eb2d7348cfd83a663e0536436b86a9574ec4d925
-
-# Wi-Fi
-vendor/bin/wcnss_service
