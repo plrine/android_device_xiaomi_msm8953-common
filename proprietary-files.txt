@@ -262,65 +262,71 @@ vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0-service.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 
-# Graphics
-vendor/lib/egl/eglSubDriverAndroid.so
-vendor/lib/egl/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
-vendor/lib/egl/libQTapGLES.so
-vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/hw/vulkan.msm8953.so
-vendor/lib/libC2D2.so
-vendor/lib/libCB.so
-vendor/lib/libOpenCL.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libbccQTI.so
-vendor/lib/libc2d30_bltlib.so
-vendor/lib/libgsl.so
-vendor/lib/libhdr_tm.so
-vendor/lib/libllvm-glnext.so
-vendor/lib/libllvm-qcom.so
-vendor/lib/libmm-hdcpmgr.so
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
-vendor/lib64/egl/libQTapGLES.so
-vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/hw/vulkan.msm8953.so
-vendor/lib64/libC2D2.so
-vendor/lib64/libCB.so
-vendor/lib64/libOpenCL.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libbccQTI.so
-vendor/lib64/libc2d30_bltlib.so
-vendor/lib64/libgsl.so
-vendor/lib64/libhdr_tm.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
-vendor/lib64/libmm-hdcpmgr.so
+# Graphics - from FP3-REL-6.A.028.1-gms-fb581341-user
+vendor/lib/egl/eglSubDriverAndroid.so|72f727554575728006e8ac05b0ad714481259690
+vendor/lib/egl/libEGL_adreno.so|b27eabcb8a90912d915f2fa3061116642e16d300
+vendor/lib/egl/libGLESv1_CM_adreno.so|d7afdc835b962b30580eec884ede914a869ef9bc
+vendor/lib/egl/libGLESv2_adreno.so|fddfa911dd52c69c6c7b60f553c0795138696bd8
+vendor/lib/libC2D2.so|78a61602407f15874b23214c58faab2cb4ccf928
+vendor/lib/libCB.so|d6dd4d7529d05ac102b936965be3e59d87f7d7d5
+vendor/lib/libOpenCL.so|065575c14a735bff3ce30a266d8b622008b3c465
+vendor/lib/libadreno_utils.so|f5f51b75191c09dd8c63e420e6f68a9f9d28348a
+vendor/lib/libc2d30_bltlib.so|9e25a5b0e6af79f5f97a6dad1446266d06ac6c28
+vendor/lib/libgpudataproducer.so|5b64f139fe49255c74d33e4014d5d426a1064a5e
+vendor/lib/libgsl.so|6377c09442221afa58e53468a203fe3ea7e5f5eb
+vendor/lib/libhdr_tm.so|04d3cc1e1c0f9b85ccbee1c86c913665d2fe02f2
+vendor/lib/libllvm-glnext.so|b5f653aa2c9e1ea25c30f84cf8875fa6cb3d94ee
+vendor/lib/libmm-hdcpmgr.so|4364ca206f8d7ffd87d6f552e4760196de62ad7b
+vendor/lib64/egl/eglSubDriverAndroid.so|d6dc70f08a0e68e897c2c8a956a8c2f3e036c540
+vendor/lib64/egl/libEGL_adreno.so|ca0184f73e4894a58cf1a53da9e025ddad9eb74d
+vendor/lib64/egl/libGLESv1_CM_adreno.so|b45486353fceb47ec419ef580fdf6d2305a842ff
+vendor/lib64/egl/libGLESv2_adreno.so|86d80c7f17b43d6f11e8731bd4fa481b2da31e0e
+vendor/lib64/libC2D2.so|175115cc36fd471f9eb83af76be21b5f602b9460
+vendor/lib64/libCB.so|f4ee960e0169cd72082c18df22d90c2b04b47355
+vendor/lib64/libOpenCL.so|d49daef4801942017b90faf2183f0643fca49ce7
+vendor/lib64/libadreno_utils.so|2dc4b21766ab7947fba7f1c2c9b085e6d6129775
+vendor/lib64/libc2d30_bltlib.so|68dda7852c6093578b69e88ce4db10243a48e02a
+vendor/lib64/libgpudataproducer.so|96a09c2b50df06531d95adf9cc6b02d15ae003a2
+vendor/lib64/libgsl.so|4328c6da13f53efb538c13b5e67310bbb07e2a29
+vendor/lib64/libhdr_tm.so|a1b9bbad12217e6b79951774801aa54be6460fd6
+vendor/lib64/libllvm-glnext.so|8b96ab94cd535c163d0548a5802fae9af4930fb7
+vendor/lib64/libmm-hdcpmgr.so|faf9491a8b15b9ca98a71e216ed94a61eca87540
 
-# Graphics (SDM)
-vendor/lib/libscalar.so
-vendor/lib/libsdm-color.so
-vendor/lib/libsdm-diag.so
--vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmextension.so
-vendor/lib/libtinyxml2_1.so
-vendor/lib64/libscalar.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-diag.so
--vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtinyxml2_1.so
+# Graphics (SDM) - from FP3-REL-6.A.028.1-gms-fb581341-user
+vendor/lib/libscalar.so|c78e4b32170501fd85daa8804aaa54afbcb40dd2
+vendor/lib/libsdm-color.so|6384a5eef8062889cf9e34e6eea0026fbfca44e9
+vendor/lib/libsdm-diag.so|62e295e92a09eb07ee77966c775ef1b136198a5e
+-vendor/lib/libsdm-disp-vndapis.so|7bc8ae0bb731344312358edca4559a215dfa0f06
+vendor/lib/libsdmextension.so|34972380240e8448ede4c24dc702ea76e97d4cef
+vendor/lib/libtinyxml2_1.so|7410663300606be35e233783fb2c4969f66c9c0e
+vendor/lib64/libscalar.so|fb38a16b3c082a8cb861905c32dff71187dca2b7
+vendor/lib64/libsdm-color.so|d9bec7004ec8fd292bb0cd3388359448ca96bd23
+vendor/lib64/libsdm-diag.so|b6b6f2b602c2b19763d262a021ce6ee5562d7dc6
+-vendor/lib64/libsdm-disp-vndapis.so|8e92d1f17735c26658c17148da6e1882b5bc6fb0
+vendor/lib64/libsdmextension.so|4428ff01496cc0c07f623fb813eb8e0047df1ecc
+vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
+
+# Graphics (Postprocessing) - from FP3-REL-6.A.028.1-gms-fb581341-user
+vendor/bin/hw/vendor.display.color@1.0-service|815cc36f3722fbfb5fdd52f6678309d207888038
+vendor/bin/mm-pp-dpps|c04b41c500b1bcf81cb605b3ef0b3b1d5e8320c3
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib64/libdisp-aba.so|4d364bb0699346a1fa57b9033f28d2a25c80ec0c
+vendor/lib64/vendor.display.color@1.0.so|f80b69b96c3ff6a1eb865740de95f67c67be785a
+vendor/lib64/vendor.display.postproc@1.0.so|8ec8b1c4764eda08ed1154f3487ef0a8f0ad5345
+
+# Graphics (Vulkan) - from FP3-REL-6.A.028.1-gms-fb581341-user
+vendor/lib/hw/vulkan.adreno.so|d8605174a447fe05976ed195318797f73a943ed5
+vendor/lib64/hw/vulkan.adreno.so|242ba0af54ad1467998c8df1345b85d568889a4a
 
 # Graphics firmware
 vendor/firmware/a506_zap.b00
 vendor/firmware/a506_zap.b01
 vendor/firmware/a506_zap.b02
 vendor/firmware/a506_zap.mdt
-vendor/firmware/a530_pfp.fw
-vendor/firmware/a530_pm4.fw
+
+# Graphics firmware - from LA.UM.9.6.2.r1-04200-89xx.0
+vendor/firmware/a530_pfp.fw|35b72dce880191ff087af2524205afce40ea8c97
+vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
 # IRQ Balance
 vendor/bin/msm_irqbalance
@@ -389,23 +395,6 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
-
-# Postprocessing
-etc/permissions/com.qti.snapdragon.sdk.display.xml
-framework/com.qti.snapdragon.sdk.display.jar
-vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
-vendor/bin/mm-pp-dpps
-vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
-vendor/lib/libdisp-aba.so
-vendor/lib/vendor.display.color@1.0.so
-vendor/lib/vendor.display.postproc@1.0.so
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
-vendor/lib64/libdisp-aba.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.postproc@1.0.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # Power-off alarm - from caymanslm - SKQ1.211103.001
 product/app/PowerOffAlarm/PowerOffAlarm.apk:system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|f0a86fc11b38c059912303857bc4c79155430bcc
