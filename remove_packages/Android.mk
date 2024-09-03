@@ -15,7 +15,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     TurboAdapter \
     talkback \
     arcore \
-    GoogleTTS \
+    GoogleTTS
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
