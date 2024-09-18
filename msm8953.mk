@@ -155,6 +155,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiDolby
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+
 # Display
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
