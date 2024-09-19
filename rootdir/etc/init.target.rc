@@ -215,8 +215,8 @@ on boot
 
 # Add for DT2W
     chown system system /sys/touchpanel/double_tap
-    chown system system /proc/touchpanel/wakeup_gesture
-    chmod 0660 /proc/touchpanel/wakeup_gesture
+    chown system system /proc/touchpanel/enable_dt2w
+    chmod 0660 /proc/touchpanel/enable_dt2w
 
 service ppd /vendor/bin/mm-pp-dpps
     class late_start
