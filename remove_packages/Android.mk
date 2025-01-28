@@ -5,14 +5,19 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
-    MarkupGoogle  \
-    arcore \
-    talkback \
     AICorePrebuilt \
     AdaptiveVPNPrebuilt \
     AndroidAutoStubPrebuilt \
-    SafetyHubPrebuilt \
+    BetterBugStub \
+    HealthIntelligenceStubPrebuilt \
     KidsSupervisionStub \
+    MaestroPrebuilt \
+    OdadPrebuilt \
+    Velvet \
+    GoogleTTS \
+    MarkupGoogle  \
+    arcore \
+    talkback \
     TurboPrebuilt \
     Flipendo
 LOCAL_UNINSTALLABLE_MODULE := true
