@@ -81,7 +81,6 @@ dalvik.vm.dex2oat64.enabled=true
 
 # Display
 debug.enable.sglscale=1
-debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_backpressure=1
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_hwc_vds=1
