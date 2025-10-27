@@ -383,6 +383,9 @@ on property:sys.boot_completed=1
     # This initializes vendor.qti.hardware.perf service
     setprop vendor.post_boot.parsed 1
 
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
+
     swapon_all /vendor/etc/fstab.zram
     write /proc/sys/vm/swappiness 100
 
