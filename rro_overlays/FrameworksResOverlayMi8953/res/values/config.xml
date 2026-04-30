@@ -443,9 +443,6 @@
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
 
-    <!-- the number of the max cached processes in the system. -->
-    <integer name="config_customizedMaxCachedProcesses">32</integer>
-
     <!-- Number of notifications to keep in the notification service historical archive -->
     <integer name="config_notificationServiceArchiveSize">25</integer>
 
