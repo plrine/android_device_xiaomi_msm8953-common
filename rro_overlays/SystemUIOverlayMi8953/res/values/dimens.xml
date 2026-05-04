@@ -21,5 +21,5 @@
     <dimen name="lock_icon_padding">32px</dimen>
 
     <!-- Blur radius behind Notification Shade -->
-    <dimen name="max_shade_window_blur_radius">12dp</dimen>
+    <dimen name="max_shade_window_blur_radius">8dp</dimen>
 </resources>

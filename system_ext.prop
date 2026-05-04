@@ -3,4 +3,4 @@ persist.vendor.dpm.feature=1
 persist.vendor.dpm.loglevel=0
 
 # Blur
-ro.surface_flinger.blur_scale=0.5
+ro.surface_flinger.blur_scale=0.35
