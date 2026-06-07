@@ -1,1 +1,6 @@
 user=system seinfo=platform name=com.sony.timekeep domain=vendor_timekeep_app type=app_data_file
+user=network_stack seinfo=default domain=network_stack type=radio_data_file
+user=network_stack domain=network_stack type=radio_data_file
+user=radio seinfo=default domain=radio type=radio_data_file
+user=_app seinfo=default isPrivApp=true name=com.android.providers.media.module domain=mediaprovider_app type=privapp_data_file levelFrom=all
+user=_app seinfo=default isPrivApp=true name=com.android.providers.media.module:* domain=mediaprovider_app type=privapp_data_file levelFrom=all
