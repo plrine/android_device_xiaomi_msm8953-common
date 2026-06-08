@@ -1,0 +1,2 @@
+# Allow system_app to read emulator properties
+get_prop(system_app, qemu_hw_prop)

@@ -1,0 +1,1 @@
+allow vendor_dataservice_app vendor_dpmtcm_socket:sock_file w_file_perms;

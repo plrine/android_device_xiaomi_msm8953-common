@@ -15,3 +15,7 @@ cameradaemon.SaveMemAtBoot      u:object_r:camera_prop:s0
 persist.enable.max.pending.buf  u:object_r:camera_prop:s0
 persist.partial.skip            u:object_r:camera_prop:s0
 persist.cam.pp.feat.mask        u:object_r:camera_prop:s0
+
+# Bluetooth Address
+persist.vendor.bt.address       u:object_r:vendor_bluetooth_prop:s0
+
