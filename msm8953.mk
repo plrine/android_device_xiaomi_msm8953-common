@@ -203,6 +203,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayMi8953 \
     Launcher3OverlayMi8953 \
     SettingsOverlayMi8953 \
+    SettingsProvidersOverlayMi8953 \
     SystemUIOverlayMi8953 \
     TelephonyOverlayMi8953
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reduce all scales to 50% (0.5x) or 0% (disable) -->
+    <fraction name="def_window_animation_scale">50%</fraction>
+    <fraction name="def_window_transition_scale">50%</fraction>
+    <fraction name="def_animator_duration_scale">50%</fraction> <!-- Requires Phase 2 patch -->
+</resources>
