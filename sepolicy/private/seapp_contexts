@@ -1,1 +1,2 @@
 user=radio seinfo=platform name=com.qti.dpmserviceapp domain=vendor_dataservice_app type=radio_data_file
+user=_app isPrivApp=true name=com.android.systemui domain=platform_app type=app_data_file levelFrom=user
