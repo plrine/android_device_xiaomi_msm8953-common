@@ -311,21 +311,19 @@ vendor/firmware/a530_pm4.fw
 vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
 
-# Listen
-vendor/lib/libadpcmdec.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs-osal.so
-vendor/lib/libgcs.so
-vendor/lib/liblistenjni.so
-vendor/lib/liblistensoundmodel2.so
-vendor/lib/libsmwrapper.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
-vendor/lib64/liblistenjni.so
-vendor/lib64/liblistensoundmodel2.so
+# Listen - from LA.UM.9.6.3.r1-06200-89xx.0
+vendor/lib/libadpcmdec.so|452d1123ab4e12c4444df33322f309e2ecc2e1e4
+vendor/lib/libgcs-calwrapper.so|27242b084b61721b41ffa38dce2e7caf24213c0d
+vendor/lib/libgcs-ipc.so|56259a3b95e50526bad65c89030de9bebc37ec93
+vendor/lib/libgcs-osal.so|78827abdce5dad5eb2af7d9a4215c627e2aad374
+vendor/lib/libgcs.so|cfc9fb41ef6ef57740cfc492e81bbfa01f7009c8
+vendor/lib/liblistensoundmodel2.so|2477022cee3bf3025f41fa1fd3254bfb977fef25
+vendor/lib/libsmwrapper.so|bd5f722c74a85b9fa11f95950782559411d2fed7
+vendor/lib64/libgcs-calwrapper.so|f0ede610337e9d7a4ef061201c726887db24077c
+vendor/lib64/libgcs-ipc.so|122b62d4aaa3db2576a424d8ec78fad1cb055f38
+vendor/lib64/libgcs-osal.so|7eabdf84be176ddef06613f5136223a46059496c
+vendor/lib64/libgcs.so|553b24b0ce2e7192d2e90a5b5ede110ba2fd5361
+vendor/lib64/liblistensoundmodel2.so|68be3f09449e8c13730b3fa9ceb5f4d203adec42
 
 # Media
 vendor/etc/seccomp_policy/mediacodec.policy
