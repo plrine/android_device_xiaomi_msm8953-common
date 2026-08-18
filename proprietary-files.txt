@@ -194,21 +194,20 @@ vendor/lib/libdpmqmihal.so
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libdpmqmihal.so
 
-# DRM
-vendor/bin/qseecomd
-vendor/lib/libQSEEComAPI.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libqisl.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libssd.so
+# DRM - from LA.UM.9.6.3.r1-06200-89xx.0
+vendor/bin/qseecomd|090bc4777f644b7d8fa4592c1f49350d4e5384da
+vendor/lib/libQSEEComAPI.so|a076cd7b8090359351bf620c4a4925184b04c320
+vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
+vendor/lib64/libGPreqcancel_svc.so|4b4ef9f64fa9635c536f8817bfbd72405dfcd757
+vendor/lib64/libQSEEComAPI.so|0f70c68351d44b1756845977cb864e7f1d8e97b3
+vendor/lib64/libStDrvInt.so|0d932ca0b9e59c591a1e200256c29861ca2c77c7
+vendor/lib64/libdrmfs.so|f04a59f53d762335bdc74018acee01532180d813
+vendor/lib64/libdrmtime.so|a0651276c16a4e3f24c8b288cf2378a6e37599e8
+vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
+vendor/lib64/librpmb.so|c502b0f81c937991ae5db6d1313f2fe2977d1aa8
+vendor/lib64/libsecureui.so|dfb34b48d131e6929f16d1807ec900b7b14ffce9
+vendor/lib64/libsecureui_svcsock.so|6af612f057f4f28720d6db9b300b58c883da6539
+vendor/lib64/libssd.so|f250f421ad88f1bea74d53c79b58d019767bbeae
 
 # GPS
 vendor/bin/loc_launcher
