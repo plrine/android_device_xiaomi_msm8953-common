@@ -38,30 +38,30 @@ vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|944169db3ac67056b92ef4f850f69346958370b5
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 
-# Audio
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudioparsers.so
-vendor/lib/libdrc.so
-vendor/lib/libqtigef.so
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libqtigef.so
+# Audio - from LA.UM.9.6.3.r1-06200-89xx.0
+vendor/lib/libacdb-fts.so|98a296afb82f11691adc9de66cbfec140ff23067
+vendor/lib/libacdbloader.so|b013c75a70a809428cef9d5e7950e14effeea73c
+vendor/lib/libacdbrtac.so|ddfe51ca2cd62d3ff6f67363e7b2fddd2e7dac74
+vendor/lib/libadiertac.so|a1b6a277cfbf29a3f02fa188dc69cc114c9bb71d
+vendor/lib/libadm.so|8415d5ce8ac6a1fd322aa82af4c3c516000f88b5
+vendor/lib/libaudcal.so|88c502a87b181fc620dfefe5f91c871436c92683
+vendor/lib/libaudio_log_utils.so|cc113532083868ab652ea4ed7d5845f35e7418b9
+vendor/lib/libaudioalsa.so|79b393f760621a3fe75be83cca18b9d2e2a0fe23
+vendor/lib/libaudioconfigstore.so|d11bae70d09b0d422341974028dabd391e384ed1
+vendor/lib/libaudioparsers.so|0d44c51f4c4dc01a76c7c70ab5e4ac4a3db8f49e
+vendor/lib/libdrc.so|7dbd6cef13d7e8ad18b1a49aa92a7d83da24c96a
+vendor/lib/libqtigef.so|53980f73520be54c9a97eb689bd6cfed73b51fac
+vendor/lib/libsurround_3mic_proc.so|98038406a407141f77fb7c81b512b8163261d958
+vendor/lib64/libacdb-fts.so|0d7463a6a1763a58a811506752f8bd228de7353c
+vendor/lib64/libacdbloader.so|7c24242dce1ce304586e708f5bf57d038f36e464
+vendor/lib64/libacdbrtac.so|e1c289fb7d6347b1ec6d8e0bd891068c96c591ac
+vendor/lib64/libadiertac.so|0b2decb5ac7439864104be287b9f997763988a3d
+vendor/lib64/libaudcal.so|d14f0a7fddc125a0429948f43506ea5c41a860e2
+vendor/lib64/libaudio_log_utils.so|d6223cd3f6fd6e63a2f4474ca500aea37f48367a
+vendor/lib64/libaudioalsa.so|361b3de1f094cc0943add1ef7040ffeadc5dbdcb
+vendor/lib64/libaudioconfigstore.so|781b4f6141a9066327ed7589613ae2546fdad8e9
+vendor/lib64/libaudioparsers.so|400a4157bcd70ea33679904a7d130988e436d2f6
+vendor/lib64/libqtigef.so|7afd49bdf19887353d894bfcf1199e0ecfc21e23
 
 # ANT+ (vendor)
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
