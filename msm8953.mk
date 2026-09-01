@@ -252,6 +252,7 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 PRODUCT_PACKAGES += \
+    init.class_main.sh \
     init.qcom.sh \
     init.qcom.post_boot.sh
 

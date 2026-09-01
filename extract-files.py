@@ -36,10 +36,11 @@ lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
         'com.qualcomm.qti.dpm.api@1.0',
+        'vendor.qti.ims.callcapability@1.0',
         'vendor.qti.ims.callinfo@1.0',
         'vendor.qti.ims.rcsconfig@1.0',
-        'vendor.qti.imsrtpservice@2.0',
-        'vendor.qti.imsrtpservice@2.1',
+        'vendor.qti.ims.rcsconfig@2.0',
+        'vendor.qti.ims.rcsconfig@2.1',
     ): lib_fixup_vendor_suffix,
     ('libwifi-hal-ctrl'): lib_fixup_remove,
 }
@@ -52,7 +53,7 @@ blob_fixups: blob_fixups_user_type = {
     ('system_ext/lib64/lib-imscamera.so', 'system_ext/lib64/lib-imsvideocodec.so'): blob_fixup()
         .add_needed('libgui_shim.so'),
     'vendor/bin/pm-service': blob_fixup()
-        .add_needed('libutils-v33.so'),
+        .replace_needed('libutils.so', 'libutils-v33.so'),
     ('vendor/etc/data/dsi_config.xml', 'vendor/etc/data/netmgr_config.xml'): blob_fixup()
         .fix_xml(),
     ('vendor/lib64/mediadrm/libwvdrmengine.so', 'vendor/lib64/libwvhidl.so'): blob_fixup()
