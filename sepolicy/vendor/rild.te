@@ -1,2 +1,7 @@
 allow rild rild_file:file r_file_perms;
 allow rild qtidataservices_app:binder call;
+
+r_dir_file(rild, sysfs_ssr)
+r_dir_file(rild, sysfs_soc)
+get_prop(rild, vendor_default_prop)
+get_prop(rild, vendor_radio_prop)

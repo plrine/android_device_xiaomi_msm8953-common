@@ -1,1 +1,3 @@
 set_prop(netmgrd, vendor_xlat_prop)
+r_dir_file(netmgrd, sysfs_ssr)
+r_dir_file(netmgrd, sysfs_soc)
