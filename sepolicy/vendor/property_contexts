@@ -20,3 +20,12 @@ persist.cam.pp.feat.mask        u:object_r:camera_prop:s0
 # Bluetooth Address
 persist.vendor.bt.address       u:object_r:vendor_bluetooth_prop:s0
 
+# Audio
+audio.chk.cal.us                u:object_r:vendor_audio_prop:s0
+
+# Data / Telephony
+persist.vendor.data.            u:object_r:vendor_radio_prop:s0
+
+# Thermal engine
+persist.sys.thermal.            u:object_r:thermal_engine_prop:s0
+sys.thermal.                    u:object_r:thermal_engine_prop:s0

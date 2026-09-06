@@ -21,7 +21,17 @@ genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.q
 genfscon sysfs /devices/platform/soc/soc:qcom,mdss_wb_panel/extcon u:object_r:sysfs_extcon:s0
 
 # Mmc
-genfscon sysfs /devices/platform/soc/7824900.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0/queue/discard_max_bytes u:object_r:sysfs_mmc_host:s0
+genfscon sysfs /devices/platform/soc/7824900.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0 u:object_r:sysfs_mmc_host:s0
+
+# SPMI
+genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00 u:object_r:sysfs_spmi_dev:s0
+
+# Subsystem SSR (Kernel 4.19)
+genfscon sysfs /devices/platform/soc/4080000.qcom,mss/subsys0/name       u:object_r:sysfs_ssr:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,kgsl-hyp/subsys1/name      u:object_r:sysfs_ssr:s0
+genfscon sysfs /devices/platform/soc/c200000.qcom,lpass/subsys2/name     u:object_r:sysfs_ssr:s0
+genfscon sysfs /devices/platform/soc/a21b000.qcom,pronto/subsys3/name    u:object_r:sysfs_ssr:s0
+genfscon sysfs /devices/platform/soc/1de0000.qcom,venus/subsys4/name     u:object_r:sysfs_ssr:s0
 
 # Rmt
 userdebug_or_eng(`
@@ -43,10 +53,13 @@ genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-03/200f000.q
 genfscon sysfs /devices/virtual/misc                                                                                    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/diag                                                                                    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1b0c000.qcom,cci/wakeup                                                            u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1b0c000.qcom,cci/1b0c000.qcom,cci:qcom,camera@0                                    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1b0c000.qcom,cci/1b0c000.qcom,cci:qcom,camera@1                                    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1de0000.qcom,venus/wakeup                                                         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00/200f000.qcom,spmi:qcom,pm8953@0:qcom,pm8953_rtc/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00/200f000.qcom,spmi:qcom,pm8953@0:qcom,pm8953_rtc/rtc/rtc0/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00/200f000.qcom,spmi:qcom,pm8953@0:qcom,pm8953_typec@bf00/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00/200f000.qcom,spmi:qcom,pm8953@0:qcom,pm8953_typec@bf00/power_supply/typec/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00/200f000.qcom,spmi:qcom,power-on@800/wakeup                   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-01/200f000.qcom,spmi:qcom,pm8953@1:anlg-cdc@f000/wakeup         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.qcom,spmi:qcom,pmi8950@2:qcom,fg/wakeup               u:object_r:sysfs_wakeup:s0
@@ -54,6 +67,9 @@ genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.q
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.qcom,spmi:qcom,power-on@800/wakeup                   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.qcom,spmi:qcom,qpnp-smbcharger/wakeup                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.qcom,spmi:qcom,pmi8940@2:qcom,qpnp-smbcharger/wakeup                 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.qcom,spmi:qcom,pmi8950@2:qcom,qpnp-smbcharger/power_supply/usb/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.qcom,spmi:qcom,pmi8940@2:qcom,qpnp-smbcharger/power_supply/usb/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.qcom,spmi:qcom,qpnp-smbcharger/power_supply/usb/wakeup                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4080000.qcom,mss/wakeup                                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/7000000.ssusb/wakeup                                                              u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/7900000.qcom,ipa/wakeup                                                           u:object_r:sysfs_wakeup:s0

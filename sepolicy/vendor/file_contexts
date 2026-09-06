@@ -54,7 +54,7 @@
 /sys/devices(/platform)?/soc/78b7000\.i2c/i2c-3/3-[0-9a-f]+/disable_keys         u:object_r:proc_touchpanel:s0
 
 # Time
-/vendor/bin/timekeep                                                          u:object_r:timekeep_exec:s0
+/(vendor|system/vendor)/bin/timekeep                                          u:object_r:timekeep_exec:s0
 
 # ODM
 /system/vendor/odm(/.*)?                                         u:object_r:vendor_file:s0
