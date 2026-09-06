@@ -27,8 +27,7 @@ BOARD_KERNEL_CMDLINE += \
     ehci-hcd.park=3 \
     androidboot.bootdevice=7824900.sdhci \
     loop.max_part=7 \
-    androidboot.boot_devices=soc/7824900.sdhci \
-    androidboot.selinux=permissive
+    androidboot.boot_devices=soc/7824900.sdhci
 
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
