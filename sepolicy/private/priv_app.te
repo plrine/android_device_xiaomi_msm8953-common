@@ -1,3 +1,6 @@
 # Allow SystemUI to read keyguard and emulator properties
 get_prop(priv_app, keyguard_config_prop)
 get_prop(priv_app, qemu_hw_prop)
+
+allow priv_app tradeinmode_service:service_manager find;
+
